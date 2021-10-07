@@ -1,0 +1,11 @@
+@media screen and (max-width:360px) and (orientation: portrait) {
+    /*============== HEADER ==============*/
+    .navigational-bar {
+        position: relative;
+        float: right;
+        display: block;
+        width: 4rem;
+        height: 4rem;
+    }
+}
+

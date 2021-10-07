@@ -20,9 +20,17 @@
     }
 
     /*============== HEADER ==============*/
+    .logo {
+        font-family: 'Varela', sans-serif; 
+        font-size: 0.75rem;
+        font-weight: 100;
+        letter-spacing: 0.125rem;
+        float: left;
+    }
+
+    /*============== HERO BANNER ==============*/
     .hero-banner .hero-title span,
     .about-content span{color: #EBCA55;}
-
 
     /*============== SECTION CONTAINER ==============*/
     .section-container { 

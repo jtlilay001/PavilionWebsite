@@ -3,6 +3,16 @@
         margin: 0 1.5rem;
     }   
 
+   /*============== HEADER ==============*/
+   .header {
+       padding-top: 1.5rem;
+   }
+   .header::after {
+       content: "";
+       clear: both;
+       display: table;
+   }
+
     .service-content, .team-member-content {
         margin-bottom: 1.5rem;
     }
