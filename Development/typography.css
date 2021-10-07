@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+@media screen and (max-width:360px) and (orientation: portrait) {   
+    h1, h2, h3, h4, h5, h6 { margin: 0.5rem 0;} 
+    h6 { font-size: 1rem; } /*(16px) / (1rem/16px)*/
+    h5 { font-size: 1.5rem; } /* 24px/16px */
+    h4 { font-size: 2rem; } /* 32px/16px */
+    h3 { font-size: 2.5rem; } /* 40px/16px */
+    h2 { font-size: 3rem; } /* 48px/16px */
+    h2 {font-size: 3.5rem; } /* 56px/16px */
+    p{ 
+        font-family: 'Varela', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+
+    }
+
+    /*============== HEADER ==============*/
+    .hero-banner .hero--title span{color: #EBCA55;}
+
+
+    /*============== PROJECTS ==============*/
+    .pavilion-projects { text-align: center;}
+    .pavilion-projects .project-sub-header {
+        font-size: 0.75rem; 
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+    }
+    .pavilion-projects .project-header { 
+        margin-left: -0.9375rem;
+        margin-right: -0.9375rem; 
+    }
+    .pavilion-projects .project-menu { font-size: 0.75rem; }
+}

@@ -1,0 +1,12 @@
+.pavilion-projects .project-menu {
+    list-style: none; 
+    font-family: 'Varela', sans-serif;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+
+.pavilion-projects .project-menu .project-list-item {
+    display: inline-block;
+    padding: 0 0.9375rem; /*15px/16px*/
+    margin: 0 -0.234375rem; /* ((15px/2)/2) / 16px*/
+}
