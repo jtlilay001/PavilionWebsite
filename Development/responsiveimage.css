@@ -1,0 +1,9 @@
+@media screen and (max-width: 360px) and (orientation: portrait){
+    img {
+        max-width: 100%;
+       /* margin-bottom: 2rem; */
+    }
+
+    .img-container { margin: 0 0 1.5rem 0;}
+    
+}

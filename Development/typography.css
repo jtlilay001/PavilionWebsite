@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 
 @media screen and (max-width:360px) and (orientation: portrait) {   
+    body {
+        line-height: 1.5;
+    }
+
     h1, h2, h3, h4, h5, h6 { margin: 0.5rem 0;} 
     h6 { font-size: 1rem; } /*(16px) / (1rem/16px)*/
     h5 { font-size: 1.5rem; } /* 24px/16px */
@@ -13,23 +17,50 @@
         font-family: 'Varela', sans-serif;
         font-size: 1rem;
         font-weight: 300;
-
     }
 
     /*============== HEADER ==============*/
-    .hero-banner .hero--title span{color: #EBCA55;}
+    .hero-banner .hero-title span,
+    .about-content span{color: #EBCA55;}
 
 
-    /*============== PROJECTS ==============*/
-    .pavilion-projects { text-align: center;}
-    .pavilion-projects .project-sub-header {
+    /*============== SECTION CONTAINER ==============*/
+    .section-container { 
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .section-container .section-sub-header {
         font-size: 0.75rem; 
         font-weight: 300;
         letter-spacing: 0.2rem;
     }
-    .pavilion-projects .project-header { 
+    .section-container .section-header { 
         margin-left: -0.9375rem;
         margin-right: -0.9375rem; 
+        font-weight: 500;
     }
-    .pavilion-projects .project-menu { font-size: 0.75rem; }
+
+    /*============== PROJECT MENU ==============*/
+    .project-menu { font-size: 0.75rem; }
+
+    
+    /*============== ABOUT ==============*/
+     .about-content { 
+         font-weight: 100; 
+         line-height: 1.5;
+         margin: 0 0 1.5rem 0;
+         text-transform: lowercase;
+         text-align: center;
+    }
+
+    .about-content span {text-transform: uppercase;}
+
+    /*============== SERVICE ==============*/
+    .service-description,
+    .team-member-description {
+        font-size: 0.75rem;
+        text-transform: lowercase;
+        margin: 0;
+        opacity: 70%;
+    }
 }
