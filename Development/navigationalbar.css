@@ -1,11 +1,35 @@
-@media screen and (max-width:360px) and (orientation: portrait) {
-    /*============== HEADER ==============*/
-    .navigational-bar {
-        position: relative;
-        float: right;
-        display: block;
-        width: 4rem;
-        height: 4rem;
-    }
+/*============== NAVIGATIONAL BAR ==============*/
+.navigational-bar {
+    float: right;
+    position: relative;
+    padding: 0.9375rem;
+    width: 2rem;
+}
+.navigational-bar .toggle {
+    position: absolute; 
+    width: 2rem;
+    height: 0.125rem;
+    top: 50%; 
+    left: 50%;
+    margin-left: -1rem;
+    margin-top: -0.0625rem;
+    background-color: #4E5051;
+}
+.navigational-bar .toggle::after {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: inherit;
+    background-color: #4E5051;
+    top: 0.5rem;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+    /*============== NAVIGATIONAL BAR ==============*/
+    .navigational-menu { display: none; }
+}
+
+@media (min-width: 425px) and (max-width: 767px) { 
+    /*============== NAVIGATIONAL BAR ==============*/
+    .navigational-menu { display: none; }
+}

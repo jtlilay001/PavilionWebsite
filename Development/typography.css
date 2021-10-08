@@ -1,36 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 
-@media screen and (max-width:360px) and (orientation: portrait) {   
-    body {
-        line-height: 1.5;
-    }
+body {
+    line-height: 1.5;
+}
 
-    h1, h2, h3, h4, h5, h6 { margin: 0.5rem 0;} 
-    h6 { font-size: 1rem; } /*(16px) / (1rem/16px)*/
-    h5 { font-size: 1.5rem; } /* 24px/16px */
-    h4 { font-size: 2rem; } /* 32px/16px */
-    h3 { font-size: 2.5rem; } /* 40px/16px */
-    h2 { font-size: 3rem; } /* 48px/16px */
-    h2 {font-size: 3.5rem; } /* 56px/16px */
-    p{ 
-        font-family: 'Varela', sans-serif;
-        font-size: 1rem;
-        font-weight: 300;
-    }
+/*============== FONTS ==============*/
+h1, h2, h3, h4, h5, h6 { margin: 0.5rem 0;} 
+h6 { font-size: 1rem; } /*(16px) / (1rem/16px)*/
+h5 { font-size: 1.5rem; } /* 24px/16px */
+h4 { font-size: 2rem; } /* 32px/16px */
+h3 { font-size: 2.5rem; } /* 40px/16px */
+h2 { font-size: 3rem; } /* 48px/16px */
+h1 {
+    font-size: 3.5rem; /* 56px/16px */
+    color: #151717;
+} 
+p{ 
+    font-family: 'Varela', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
 
-    /*============== HEADER ==============*/
-    .logo {
-        font-family: 'Varela', sans-serif; 
-        font-size: 0.75rem;
-        font-weight: 100;
-        letter-spacing: 0.125rem;
-        float: left;
-    }
+/*============== HEADER ==============*/
+.logo {
+    font-family: 'Varela', sans-serif; 
+    font-size: 0.75rem;
+    font-weight: 100;
+    letter-spacing: 0.125rem;
+    float: left;
+}
 
-    /*============== HERO BANNER ==============*/
-    .hero-banner .hero-title span,
-    .about-content span{color: #EBCA55;}
+/*============== HERO BANNER ==============*/
+.hero-banner .hero-title span,
+.about-content span{color: #EBCA55;}
+
+
+@media (min-width: 320px) and (max-width: 425px) {   
+    /*============== HERO TITLE ==============*/
+    h1 {
+        font-size: 2rem;
+    }
 
     /*============== SECTION CONTAINER ==============*/
     .section-container { 
@@ -72,3 +82,10 @@
         opacity: 70%;
     }
 }
+
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .hero-banner .hero-title {
+        position: absolute;
+    }
+ } 
