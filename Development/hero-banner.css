@@ -1,0 +1,18 @@
+@media screen and (min-width: 320px) and (max-width: 425px){
+    /*============== HERO BANNER CONTAINER ==============*/
+    .hero-banner {
+        position: relative;
+        padding-bottom: 5em;
+        display: block;
+    }
+    .banner-text-container {
+        position: absolute;
+        bottom: 0; 
+        left: 0;
+        max-width: 100%;
+        max-height: 100%;
+        background-color: #FFFF;
+        padding: 1.5em 3em;
+        margin: 0 0 3.5em;
+    }
+}

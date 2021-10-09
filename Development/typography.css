@@ -38,9 +38,13 @@ p{
 
 @media (min-width: 320px) and (max-width: 425px) {   
     /*============== HERO TITLE ==============*/
-    h1 {
-        font-size: 2rem;
+    .hero-title { 
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        text-align: center;
+        font-weight: 500;
     }
+
 
     /*============== SECTION CONTAINER ==============*/
     .section-container { 

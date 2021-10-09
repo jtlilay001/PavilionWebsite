@@ -1,10 +1,11 @@
 @import url("normalize.css");
 @import url("typography.css");
 @import url("responsive-layout.css");
-@import url("list.css");
-@import url("responsiveimage.css");
+@import url("header.css");
 @import url("navigationalbar.css");
-
+@import url("hero-banner.css");
+@import url("responsiveimage.css");
+@import url("list.css");
 * {
     box-sizing: border-box;
 }
