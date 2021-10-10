@@ -24,12 +24,48 @@
     top: 0.5rem;
 }
 
+
+/*================== MOBILE ==================*/ 
+
 @media (min-width: 320px) and (max-width: 425px) {
     /*============== NAVIGATIONAL BAR ==============*/
     .navigational-menu { display: none; }
 }
 
+/*================== TABLET ==================*/ 
+
+
+/*================== LAPTOP ==================*/ 
+
+
+/*================== DESKTOP ==================*/ 
+
 @media (min-width: 425px) and (max-width: 767px) { 
     /*============== NAVIGATIONAL BAR ==============*/
     .navigational-menu { display: none; }
+}
+
+@media screen and (min-width: 1024px) {
+    .header .navigational-bar {
+        display: none;
+    }
+    .navigational-menu {
+        list-style: none;
+        padding: 0; 
+        margin-top: 1.03125em;
+        width: auto;
+        margin-bottom: 0;
+        float: right;
+        font-family: 'Varela', sans-serif;
+        font-size: 1em;
+    }
+    .menu-items {
+        font-size: 0.8em;
+        letter-spacing: 0.2em;
+        display: inline-block;
+        padding: 0 1.25em;
+        text-align: center;
+        color: #4E5051;
+    }
+
 }

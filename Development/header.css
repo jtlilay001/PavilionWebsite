@@ -1,4 +1,25 @@
-/*============== HEADER ==============*/
-.header {
-    padding: 1em;
+/*================== MOBILE ==================*/ 
+
+@media (min-width: 320px) and (max-width: 425px) {
+    /*============== HEADER ==============*/
+
+    .header {
+        padding: 1em;
+    }
+}
+
+
+/*================== TABLET ==================*/ 
+
+
+/*================== LAPTOP ==================*/ 
+
+
+/*================== DESKTOP ==================*/
+
+@media (min-width: 1023px) and (max-width: 1440px){
+    .header { 
+        padding: 2em 0;
+    }
+
 }

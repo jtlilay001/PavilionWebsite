@@ -7,3 +7,9 @@
     .project-menu { font-size: 0.75rem; }
 }
 
+@media (min-width: 1023px) and (max-width: 1440px) {
+    .project-list-item {
+        display: inline-block;
+        padding-right: 1.5em;
+    }
+}

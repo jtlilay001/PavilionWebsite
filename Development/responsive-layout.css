@@ -1,3 +1,4 @@
+/*================== MOBILE ==================*/ 
 @media (min-width: 320px) and (max-width: 425px){
     .container{
         margin: 0 1.5rem;
@@ -14,8 +15,18 @@
     }
 }
 
-/*================== LAYOUT ==================*/ 
-@media screen and (max-width: 1440px) {
+/*================== TABLET ==================*/ 
+
+
+/*================== LAPTOP ==================*/ 
+
+
+/*================== DESKTOP ==================*/ 
+@media (min-width: 1023px) and (max-width: 1440px){
+    body {
+        margin: 0 4em;
+    }
+
     /* Description: 
         The desktop site consists of 12 columns with the margins of 
         the container spanning 64px on each side. The gutter for each
@@ -80,7 +91,6 @@
         clear: both;
         display: table;
     }
-    .container {
-        margin: 0 1em;
-    }
+
+    .section-block {padding-top: 8rem;}
 }

@@ -22,21 +22,24 @@ p{
     font-weight: 300;
 }
 
-/*============== HEADER ==============*/
-.logo {
-    font-family: 'Varela', sans-serif; 
-    font-size: 0.75rem;
-    font-weight: 100;
-    letter-spacing: 0.125rem;
-    float: left;
-}
-
 /*============== HERO BANNER ==============*/
 .hero-banner .hero-title span,
 .about-content span{color: #EBCA55;}
 
 
+/*============== MOBILE ==============*/
+
 @media (min-width: 320px) and (max-width: 425px) {   
+    /*============== HEADER ==============*/
+    .logo {
+        font-family: 'Varela', sans-serif; 
+        font-size: 0.75rem;
+        font-weight: 100;
+        letter-spacing: 0.125rem;
+        float: left;
+    }
+
+
     /*============== HERO TITLE ==============*/
     .hero-title { 
         font-size: 1em;
@@ -93,3 +96,54 @@ p{
         position: absolute;
     }
  } 
+
+
+/*================== TABLET ==================*/ 
+
+
+/*================== LAPTOP ==================*/ 
+
+
+/*================== DESKTOP ==================*/ 
+@media (min-width: 1023px) and (max-width: 1440px) {
+    .logo {
+        font-family: 'Varela', sans-serif; 
+        font-size: 1.5em; 
+        font-weight: 200;
+        display: inline-block;
+        letter-spacing: 0.5em;
+    }
+
+    .hero-title {
+        font-size: 6em;
+        font-weight: 700;
+        letter-spacing: 0.25em;
+        line-height: 6rem;
+    }
+
+    .hero-title span { font-weight: 800;}
+
+    .about { font-size: 4em; }
+
+    .about-content { line-height: 2em; }
+
+    .about, 
+    .about-content {
+        letter-spacing: 0.2em;
+    }
+
+    .project-content h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+
+    .project-content h5, 
+    .project-content h4 { 
+        letter-spacing: 0.2em;
+    }
+
+    .project-content h4 {
+        font-family: 'Varela', sans-serif; 
+    }
+
+}

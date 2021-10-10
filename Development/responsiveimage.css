@@ -1,14 +1,29 @@
+img {
+    max-width: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 424px){
 /*============== IMAGES ==============*/
-    img {
-        width: 100%;
-    }
     .img-container { margin: 0 0 1.5rem 0;}
 }
 
-@media screen and (max-width: 1440px) {
+@media (min-width: 980px) and (max-width: 1440px){
     img {
-        width: 100%;
-        height: auto;
+        max-width: 100%;        
     }
+
+    .img-container { padding: 3.5em 0;}
+    .hero-banner {
+        position: relative;
+    }
+
+    .hero-banner .banner-text-container {
+        position: absolute;
+
+    }
+
+    .hero-banner picture {
+        float: right;
+    }
+
 }
