@@ -23,10 +23,9 @@
 
 /*================== DESKTOP ==================*/ 
 @media (min-width: 1023px) and (max-width: 1440px){
-    body {
-        margin: 0 4em;
+    .container {
+        margin: 0 6em;
     }
-
     /* Description: 
         The desktop site consists of 12 columns with the margins of 
         the container spanning 64px on each side. The gutter for each

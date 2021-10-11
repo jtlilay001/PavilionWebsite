@@ -1,0 +1,11 @@
+button {
+    border: none;
+    padding: 1em 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.primary--button {
+    background-color: #1A2533;
+    color: #FFF;
+}

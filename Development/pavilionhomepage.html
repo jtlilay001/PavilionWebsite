@@ -11,158 +11,195 @@
 
 <body>
     <!--HEADER-->
-    <div class="header">
-        <div class="row">
-            <h6 class="logo">Pavilion</h6>
-            <div class="navigational-bar">
-                <span class="toggle"></span>
+    <div class="container">
+        <div class="header">
+            <div class="row">
+                <h6 class="logo">Pavilion</h6>
+                <div class="navigational-bar">
+                    <span class="toggle"></span>
+                </div>
+                <ul class="navigational-menu">
+                    <a href="#"><li class="menu-items">design</li></a>
+                    <a href="#"><li class="menu-items">portfolio</li></a>
+                    <a href="#"><li class="menu-items">about</li></a>
+                    <a href="#"><li class="menu-items">services</li></a>
+                    <a href="#"><li class="menu-items">team</li></a>
+                    <a href="#"><li class="menu-items">contact</li></a>
+                </ul>
             </div>
-            <ul class="navigational-menu">
-                <a href="#"><li class="menu-items">design</li></a>
-                <a href="#"><li class="menu-items">portfolio</li></a>
-                <a href="#"><li class="menu-items">about</li></a>
-                <a href="#"><li class="menu-items">services</li></a>
-                <a href="#"><li class="menu-items">team</li></a>
-                <a href="#"><li class="menu-items">contact</li></a>
+        </div>
+
+        <!--HERO BANNER-->
+        <div class="hero-banner">
+            <div class="row">
+                <div class="banner-text-container">
+                    <h1 class="hero-title">generate & inspire<br> we are <span>pavilion</span></h1>
+                    <button class="primary--button">Learn More</button>
+                </div>
+                <picture>
+                    <source srcset="./Images/pexels-max-vakhtbovych-6283968-420w.jpg" media="(max-width: 420px)">
+                    <source srcset="./Images/pexels-cleyder-duque-3637739-full.jpg" media="(max-width: 1024px)">
+                    <img src="./Images/pexels-cleyder-duque-3637739-full.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+        <!--CONTAINER-->
+        <div class="section-block">
+            <!--PROJECTS-->
+            <div class="section-container">
+                <span class="section-sub-header">latest projects</span>
+                <h5 class="section-header">view our projects</h5>
+            </div>
+            <ul class="project-menu">
+                <a href="#">
+                    <li class="project-list-item">all</li>
+                </a>
+                <a href="#">
+                    <li class="project-list-item">architecture</li>
+                </a>
+                <a href="#">
+                    <li class="project-list-item">interior design</li>
+                </a>
             </ul>
-        </div>
-    </div>
 
-    <!--HERO BANNER-->
-    <div class="hero-banner">
-        <div class="row">
-            <div class="banner-text-container">
-                <h1 class="hero-title">generate & inspire<br> we are <span>pavilion</span></h1>
-            </div>
-            <picture>
-                <source srcset="./Images/pexels-max-vakhtbovych-6283968-420w.jpg" media="(max-width: 420px)">
-                <source srcset="./Images/pexels-max-vakhtbovych-6283968-980w.jpg" media="(max-width: 980px)">
-                <img src="./Images/pexels-max-vakhtbovych-6283968-980w.jpg" alt="">
-            </picture>
-        </div>
-
-    </div>
-    <!--CONTAINER-->
-    <div class="container section-block">
-        <!--PROJECTS-->
-        <div class="section-container">
-            <span class="section-sub-header">latest projects</span>
-            <h5 class="section-header">view our projects</h5>
-        </div>
-        <ul class="project-menu">
-            <a href="#"><li class="project-list-item">all</li></a>
-            <a href="#"><li class="project-list-item">architecture</li></a>
-            <a href="#"><li class="project-list-item">interior design</li></a>            
-        </ul>
-
-        <!--PROJECT IMAGE CONTAINER-->
-        <div class="img-container">
-            <div class="row">
-                <div class="span-5">
-                    <picture>
-                        <source src="./Images/pexels-max-avans-5101383-537w.jpg" media="(max-width: 1024px)">
-                        <img src="./Images/pexels-max-avans-5101383-537w.jpg" alt="">
-                    </picture>
-                    <div class="project-content">
-                        <h5>Interior Design</h5>
-                        <h4>Valesbo, Sweden</h4>
-                    </div>
-                </div>
-                <div class="span-7">
-                    <picture>
-                        <source src="./Images/pexels-david-yu-2081172-759w.jpg" media="(max-width: 1024px)">
-                        <img src="./Images/pexels-david-yu-2081172-759w.jpg" alt="">
-                    </picture>
-                    <div class="project-content">
-                        <h5>Interior Design</h5>
-                        <h4>Valesbo, Sweden</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row section-block">
-                <div class="span-7">
-                    <picture>
-                        <source src="./Images/pexels-adrien-olichon-2464443-759w.jpg" media="(max-width: 1024px)">
-                        <img src="./Images/pexels-adrien-olichon-2464443-759w.jpg" alt="">
-                    </picture>
-                    <div class="project-content">
-                        <h5>Interior Design</h5>
-                        <h4>Valesbo, Sweden</h4>
-                    </div>
-                </div>
-                <div class="span-5">
-                    <img src="./Images/pexels-tobit-nazar-nieto-hernandez-3199265.jpg" alt="">
-                </div>
-            </div>
-        </div>
-
-        <!--ABOUT-->
-        <div class="section-container section-block">
-            <div class="row">
-                <div class="span-6">
-                    <h5 class="section-header about">about pavilion</h5>
-                </div>
-                <div class="span-6">
-                    <p class="about-content">
-                        <span>pavilion architecture</span> is dedicated to providing you the best of architecture, with
-                        a focus on
-                        dependability and design. We're working to turn our passion for architecture into inspiration.
-                        We hope you
-                        enjoy our architecture as much as we enjoy offering them to you.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <!--SERVICES-->
-        <div class="section-container section-block">
-            <span class="section-sub-header">our services</span>
-            <h5 class="section-header">we specialize in design</h5>
-            <!--SERVICE IMAGE CONTAINER-->
+            <!--PROJECT IMAGE CONTAINER-->
             <div class="img-container">
-                <div class="service-content">
-                    <img src="./Images/pexels-max-vakhtbovych-6283960.jpg" alt="">
-                    <div class="service-content-description">
-                        <h6 class="service-header">interior design</h5>
-                            <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec
-                                sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
+                <div class="row">
+                    <div class="span-5">
+                        <picture>
+                            <source src="./Images/pexels-max-avans-5101383-537w.jpg" media="(max-width: 1024px)">
+                            <img src="./Images/pexels-max-avans-5101383-537w.jpg" alt="">
+                        </picture>
+                        <div class="project-content">
+                            <h5>Interior Design</h5>
+                            <h4>Valesbo, Sweden</h4>
+                        </div>
+                    </div>
+                    <div class="span-7">
+                        <picture>
+                            <source src="./Images/pexels-david-yu-2081172-759w.jpg" media="(max-width: 1024px)">
+                            <img src="./Images/pexels-david-yu-2081172-759w.jpg" alt="">
+                        </picture>
+                        <div class="project-content">
+                            <h5>Architecture</h5>
+                            <h4>Malashivtsi, Ukraine</h4>
+                        </div>
                     </div>
                 </div>
-                <div class="service-content">
-                    <img src="./Images/pexels-max-vakhtbovych-6283967.jpg" alt="">
-                    <div class="service-content-description">
-                        <h6 class="service-header">architecture</h5>
-                            <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec
-                                sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
+                <div class="row section-block">
+                    <div class="span-7">
+                        <picture>
+                            <source src="./Images/pexels-adrien-olichon-2464443-759w.jpg" media="(max-width: 1024px)">
+                            <img src="./Images/pexels-adrien-olichon-2464443-759w.jpg" alt="">
+                        </picture>
+                        <div class="project-content">
+                            <h5>Architecture</h5>
+                            <h4>Yong Peng, malaysia</h4>
+                        </div>
                     </div>
+                    <div class="span-5">
+                        <picture>
+                            <source src="./Images/pexels-tobit-nazar-nieto-hernandez-3199265-537w.jpg"
+                                media="(max-width: 1024px)">
+                            <img src="./Images/pexels-tobit-nazar-nieto-hernandez-3199265-537w.jpg" alt="">
+                        </picture>
+                        <div class="project-content">
+                            <h5>Interior Design</h5>
+                            <h4>Canaleja, argentina</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row section-block">
+                    <div class="span-5">
+                        <picture>
+                            <source src="./Images/pexels-guillaume-meurice-2815033-537w.jpg"
+                                media="(max-width: 1024px)">
+                            <img src="./Images/pexels-guillaume-meurice-2815033-537w.jpg" alt="">
+                        </picture>
+                        <div class="project-content">
+                            <h5>Interior Design</h5>
+                            <h4>Ludinica, Croatia</h4>
+                        </div>
+                    </div>
+
+                    <div class="span-7">
+                        <picture>
+                            <source src="./Images/pexels-axel-vandenhirtz-929280-759w.jpg" media="(max-width: 1024px)">
+                            <img src="./Images/pexels-axel-vandenhirtz-929280-759w.jpg" alt="">
+                        </picture>
+                        <div class="project-content">
+                            <h5>Architecture</h5>
+                            <h4>Woerden, netherlands</h4>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--ABOUT-->
+            <div class="section-container section-block">
+                <div class="row">
+                    <div class="span-6">
+                        <h5 class="section-header about">about pavilion</h5>
+                    </div>
+                    <div class="span-6">
+                        <p class="about-content">
+                            <span>pavilion architecture</span> is dedicated to providing you the best of architecture,
+                            with
+                            a focus on
+                            dependability and design. We're working to turn our passion for architecture into
+                            inspiration.
+                            We hope you
+                            enjoy our architecture as much as we enjoy offering them to you.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--SERVICES-->
+            <div class="section-container section-block">
+                <h5 class="section-header">we create digital experience</h5>
+                <!--SERVICE IMAGE CONTAINER-->
+                <div class="img-container row">
+                    <div class="service-content span-4">
+                        <img src="./Images/floor-plan.svg" alt="">
+                    </div>
+                    <div class="service-content span-6">
+                        <div class="service-content-description">
+                            <h6 class="service-header">architecture</h5>
+                                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Donec
+                                    sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--TEAM-->
+            <div class="team-content row section-block">
+                <div class="team-member-content span-4">
+                    <img src="./Images/" alt="">
+                    <h6 class="team-member-header">Cultural Design Aspect</h6>
+                    <p class="team-member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                        sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
+                </div>
+                <div class="team-member-content span-4">
+                    <img src="./Images/" alt="">
+                    <h6 class="team-member-header">Architectural Design tools</h6>
+                    <p class="team-member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                        sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
+                </div>
+                <div class="team-member-content span-4">
+                    <img src="./Images/" alt="">
+                    <h6 class="team-member-header">Keeping up with projects</h6>
+                    <p class="team-member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                        sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
                 </div>
             </div>
         </div>
 
-        <!--TEAM-->
-        <div class="team-content row section-block">
-            <div class="team-member-content span-4">
-                <img src="./Images/pexels-mentatdgt-937481.jpg" alt="">
-                <h6 class="team-member-header">senior architect</h6>
-                <p class="team-member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
-            </div>
-            <div class="team-member-content span-4">
-                <img src="./Images/pexels-mentatdgt-1024311.jpg" alt="">
-                <h6 class="team-member-header">marketing strategist</h6>
-                <p class="team-member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
-            </div>
-            <div class="team-member-content span-4">
-                <img src="./Images/pexels-linkedin-sales-navigator-2182970.jpg" alt="">
-                <h6 class="team-member-header">senior engineer</h6>
-                <p class="team-member-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    sodales dignissim dolor non accumsan. Integer tempor at orci sed maximus.</p>
-            </div>
-        </div>
         <div class="footer">
             <p>2021 All rights reserved</p>
             <p>pavilion@pavilion.co</p>
@@ -170,7 +207,6 @@
             <p>instagram</p>
             <p>linkedin</p>
         </div>
-    </div>
 </body>
 
 </html>
